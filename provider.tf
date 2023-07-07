@@ -5,10 +5,6 @@ terraform {
       version = "4.72.1"
     }
   }
-  backend "gcs" {
-    bucket  = "terraform-ict-state"
-    prefix  = "terraform/"
-  }
 }
 
 provider "google" {
