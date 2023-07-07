@@ -34,7 +34,7 @@ resource "google_compute_address" "static" {
 }
 
 resource "google_compute_instance" "default" {
-  name         = "instance-terraform-ikhsan-2"
+  name         = "instance-terraform-ikhsan-3"
   machine_type = "e2-medium"
   tags = ["web"]
   boot_disk {
